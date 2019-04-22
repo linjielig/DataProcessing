@@ -1,0 +1,26 @@
+using System;
+public class Program {
+    public static void Main() {
+        Test t1 = new Test();
+        Test t2 = t1;
+        // t1, t2的值均为同一个Test实例的地址.
+        Console.WriteLine("t1 = t2, " + ReferenceEquals(t1, t2));
+        // t1的值传递给函数TestOut的局部变量t,对t的值得修改不会影响t1的值.
+        TestOut(t1);
+        Console.WriteLine("t1 = t2, " + ReferenceEquals(t1, t2));
+        // t1的地址传递给函数TestOut的局部变量t,对t的修改实际上就是对t1的修改.
+        TestOut(out t1);
+        Console.WriteLine("t1 = t2, " + ReferenceEquals(t1, t2));
+        Console.ReadLine();
+        //t1 = t2, True
+        //t1 = t2, True
+        //t1 = t2, False
+    }
+    public static void TestOut(Test t) {
+        t = new Test();
+    }
+    public static void TestOut(out Test t) {
+        t = new Test();
+    }
+}
+public class Test {}

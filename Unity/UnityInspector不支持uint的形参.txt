@@ -1,0 +1,1 @@
+当函数包含uint类型的形参时,在Unity Inspector中的Button Component On Click() 处选择函数时,将不显示此函数.

@@ -1,0 +1,3 @@
+AssetDatabase.GetAssetPathsFromAssetBundleAndAssetName
+AssetDatabase.LoadAllAssetsAtPath
+可通过 AssetDatabase 类的相关函数，在 UnityEditor 中实时查看对 AssetBundle的修改。

@@ -1,0 +1,14 @@
+static#
+无论 GameObject 是否存在于场景中，是否激活，component 的 static 成员始终可以运行。
+
+instance#
+只有 GameObject 存在于场景中时，才会生成 component 的 instance，instance 成员才会存在。无论 GameObject 与 component 是否激活，component 的 instance 始终存在，
+component 的 instance 成员始终可以运行。载入 GameObject 到场景中会依次调用：
+Constructor function
+Awake function (首次激活时调用且仅调用一次)
+OnEanble function
+Start function (首次激活时调用且仅调用一次)
+从场景中销毁 GameObject 时会依次调用：
+OnDisable function
+OnDestroy function
+Destructor function（不一定立即调用）

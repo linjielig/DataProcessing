@@ -1,0 +1,13 @@
+假设纸牌宽度为 width ,相邻两张纸牌间隔为 gap ,总共 n 张纸牌,纸牌的父对象位于 position ,纸牌由 position 开始根据上述间隔依次向右水平排列,以纸牌的中心来定位纸牌,则纸牌整体在 position 左边的宽度为 width / 2,纸牌
+整体的宽度为 gap * (n - 1) + width ,纸牌整体在 position 右边的宽度为纸牌整体宽度减去纸牌整体在左边的宽度
+gap * (n - 1) + width - width / 2 ,即 gap * (n - 1) + width / 2 ,则纸牌整体右边的宽度比左边多
+gap * (n - 1) .向左移动为负,向右移动为正.
+
+以父对象为基准居中对齐:
+position -= gap * (n - 1) / 2
+以父对象为基准左对齐
+position += width / 2
+以父对象为基准右对齐:
+position -= gap * (n - 1) + width / 2
+
+备注: 如果需要多次对齐,请保留 position 的初始值, 每次以初始值进行对齐,才能保证纸牌的位置始终不变.
