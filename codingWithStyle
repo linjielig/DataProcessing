@@ -27,6 +27,7 @@ Variables and data members almost always start with a lowercase letter and eithe
 or capitals (myQueue) to indicate word breaks.
 lowercase functions and methods to distinguish them from class names.
 
+The Curly Brace Alignment Debate
 the curly brace is put on the same line as the leading statement, except in the case of a function, class, or
 method name
 
