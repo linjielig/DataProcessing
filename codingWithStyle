@@ -1,0 +1,36 @@
+Reasons to Write Comments:
+Commenting to Explain Usage
+Commenting to Explain Complicated Code
+
+Refactoring:
+Techniques that allow for more abstraction:
+    Encapsulate Field: Make a field private and give access to it with getter
+    and setter methods.
+    Generalize Type: Create more general types to allow for more code sharing.
+Techniques for breaking code apart into more logical pieces:
+    Extract Method: Turn part of a larger method into a new method to make it
+    easier to understand.
+    Extract Class: Move part of the code from an existing class into a new class.
+Techniques for improving names and the location of code:
+    Move Method or Move Field: Move to a more appropriate class or source file.
+    Rename Method or Rename Field: Change the name to better reveal its purpose.
+    Pull Up: In object-oriented programming, move to a base class.
+    Push Down: In object-oriented programming, move to a derived class.
+
+Decomposition by Design
+If you are modular decomposition and approach every module, method, or function by considering what
+pieces of it you can put off until later, your programs will generally be less dense and more organized
+than if you implemented every feature in its entirety as you coded.
+
+Capitalization
+Variables and data members almost always start with a lowercase letter and either use underscores (my_queue)
+or capitals (myQueue) to indicate word breaks.
+lowercase functions and methods to distinguish them from class names.
+
+the curly brace is put on the same line as the leading statement, except in the case of a function, class, or
+method name
+
+Coming to Blows over Spaces and Parentheses
+a space before and after any operator, a space after every comma in a parameter list or a call, and parentheses to
+clarify the order of operations
+a space before the content, a space after the content
