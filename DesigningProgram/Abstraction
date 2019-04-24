@@ -1,2 +1,5 @@
 You should design functions and classes so that you and other programmers can use them without knowing, or relying
 on, the underlying implementations.
+
+For abstraction, the key is to consider the interface and the implementation separately. First, specify the interface from the perspective of the user.
+Decide what you want the component to do. Then decide how the component will do it by choosing data structures and algorithms.

@@ -2,3 +2,12 @@
 flow between the subsystems, input and output to and from each subsystem, and general threading model.
 2. The details of each subsystem, including subdivision into classes, class hierarchies, data structures, algorithms, specific
 threading model, and error-handling specifics.
+
+a systematic approach to designing
+
+Requirements
+Divide the Program into Subsystems
+Choose Threading Models
+Specify Class Hierarchies for Each Subsystem
+Specify Classes, Data Structures, Algorithms, and Patterns for Each Subsystem
+Specify Error Handling for Each Subsystem
