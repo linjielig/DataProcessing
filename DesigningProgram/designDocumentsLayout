@@ -1,0 +1,4 @@
+1. The gross subdivision of the program into subsystems, including interfaces and dependencies between the subsystems, data
+flow between the subsystems, input and output to and from each subsystem, and general threading model.
+2. The details of each subsystem, including subdivision into classes, class hierarchies, data structures, algorithms, specific
+threading model, and error-handling specifics.

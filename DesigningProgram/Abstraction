@@ -1,0 +1,2 @@
+You should design functions and classes so that you and other programmers can use them without knowing, or relying
+on, the underlying implementations.
