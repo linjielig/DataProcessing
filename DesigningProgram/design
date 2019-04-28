@@ -3,6 +3,7 @@ flow between the subsystems, input and output to and from each subsystem, and ge
 2. The details of each subsystem, including subdivision into classes, class hierarchies, data structures, algorithms, specific
 threading model, and error-handling specifics.
 
+
 a systematic approach to designing
 
 Requirements
@@ -11,3 +12,9 @@ Choose Threading Models
 Specify Class Hierarchies for Each Subsystem
 Specify Classes, Data Structures, Algorithms, and Patterns for Each Subsystem
 Specify Error Handling for Each Subsystem
+
+
+A good object-oriented hierarchy accomplishes the following:
+    Organizes classes into meaningful functional relationships
+    Supports code reuse by factoring common functionality to base classes
+    Avoids having derived classes that override much of the parent's functionality, unless the parent is an abstract class.

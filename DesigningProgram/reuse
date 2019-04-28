@@ -1,1 +1,12 @@
 For reuse, familiarize yourself with standard data structures, algorithms, and patterns.
+
+write once, use often
+avoid code duplication at all cost
+
+Experienced programmers never throw away code
+
+Code is rarely used in only one program
+Designing for reuse saves time and money.
+Other programmers in your group must be able to use the code that you write.
+Lack of reuse leads to code duplication, code duplication leads to a maintenance nightmare.
+You will be the primary beneficiary of your own work.

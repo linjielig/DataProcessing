@@ -3,3 +3,10 @@ on, the underlying implementations.
 
 For abstraction, the key is to consider the interface and the implementation separately. First, specify the interface from the perspective of the user.
 Decide what you want the component to do. Then decide how the component will do it by choosing data structures and algorithms.
+
+Using abstraction benefits both you and the clients who use your code. Clients benefit because they don't need to worry about the implementation details;
+they can take advantage of the functionality you offer without understanding how the code really works. You benefits because you can modify the underlying
+code without changing the interface to the code. Thus, you can provide upgrades and fixes without requiring clients to change their use. With dynamically
+linked libraries, clients might not even need to rebuild their executables. Finally, you both benefit because you, as the library writer, can specify in
+the interface exactly what interactions you expect and functionality you support. A clear separation intend, which can otherwise cause unexpected behaviors
+and bugs.
